@@ -1,0 +1,432 @@
+
+
+.nav-link:hover{
+
+
+    color: #03a9f4;
+    background: transparent;
+}
+
+.nav-link{
+
+
+    color: #e91e63;
+}
+.navbar{
+    background-color: #f8f8f8;
+
+
+}
+nav .logo{
+    padding: 8px 6px;
+height: 80 px;
+float: left;
+font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+color: rgb(212, 17, 180);
+font-family: 'Brush Script MT', cursive;
+}  
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    }
+    .banner{
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 35px;
+    
+    }
+    .slider{
+    
+        width: 100%;
+        height: 100vh;
+    position: absolute;
+    top:0;
+    
+    
+    }
+    #slideimg1{
+    width: 100%;
+    height: 100%;
+    animation: zoom 3s linear infinite;
+    
+    
+    
+    }
+    
+    @keyframes zoom{
+    0%{
+    
+        transform: scale(1.3);
+    }
+    15%{
+    
+        transform: scale(1);
+    }
+    85%{
+    
+        transform: scale(1);
+    }
+    100%{
+    
+        transform: scale(1.3);
+    }
+    
+    }
+    
+    .overlay{
+    
+    
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .conte{
+    
+    
+      max-width: 650px;  
+     
+      text-align: center;
+      align-items: center;
+    margin:160px  auto 0;
+    color: white;
+    
+    }
+     .conte h1{
+        margin: 2%;
+        font-size: 40px;
+        max-width: 100%;
+    }
+    .conte h3{
+    
+       
+       
+        margin: 3%;
+        font-weight: 100;
+  font-size: 18px;
+        line-height: 25px;
+
+    
+    }
+   .banner  button{
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 55px;
+    font-size: 15px;
+    max-width: 40%;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+    background: transparent;
+    color: white;
+    }
+    .conte button:hover{
+    
+    
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    
+    
+    
+    }
+    .card-img-top{
+
+        border-radius: 15px;
+      }
+      .sample{
+margin-right: auto;
+margin-top: 5%;
+margin-left: auto;
+justify-content: center;
+
+
+
+
+
+
+
+
+
+      }
+      h4{
+
+        margin-top: 70%;
+        color: white;
+        font-family: cursive;
+      }
+     
+.brand h2{
+
+    margin-top: 5%;
+    font-family: cursive;
+}
+
+
+
+.sellers h2{
+
+    margin-top: 10%;
+    margin-bottom: 6%;
+    font-family: cursive;
+
+}
+
+
+
+.carousel h2{
+
+    margin-top: 10%;
+    margin-bottom: 4%;
+    font-family: cursive;
+}
+
+.fragnce h2{
+
+    margin-top: 10%;
+    margin-bottom: 6%;
+    font-family: cursive;
+
+
+
+}
+
+.brand h4{
+
+    color: black;
+}
+
+.btn{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    max-width: 550px;
+    background-color:blue;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #24262b;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul a:hover{
+    color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+   
+    background-color: rgba((255), 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+   color: #ffffff;
+    transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/* responsive */
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .tips{
+        width: 50%;
+        margin-bottom: 30px; 
+    }
+}
+#content_area{
+    width: 100%;
+    background-color: white;
+    float: right;
+    
+}
+ 
+
+
+
+@media only screen and (max-width: 768px) {
+   
+    #content_area{
+    width: 70%;
+    }
+   
+       
+        
+        
+    }
+   
+    button{
+    background: transparent;
+    background-color:rgb(212, 17, 180); 
+    color:white;
+    font-family: cursive;
+    padding: 5px;
+    border: 1px solid rgb(212, 17, 180);
+    border-radius: 25px;
+    }
+    #single_product{
+        
+       
+        margin-top:30px ;
+        margin-bottom: 20px;
+        float: left;
+        margin-left: 30px;
+        padding: 10px;
+        font-size: 15px;
+    
+      
+        
+        width: 250px;
+        
+        text-align: center;
+    }
+
+    #team{
+        
+       
+        margin-top:30px ;
+        margin-bottom: 50px;
+        float: left;
+        margin-left: 50px;
+        padding: 10px;
+        font-size: 15px;
+    justify-content: center;
+      
+        
+        width: 450px;
+        
+        text-align: center;
+    }
+   
+    #shopping_cart{
+        width: 100%;
+        height: auto;
+       
+       color: blue;
+        margin-bottom: 10%;
+    
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 80%;
+    background-color: #F3F1F5!important;
+    
+    border:1px solid black;
+    margin: auto;
+    text-align: center;
+    
+    
+      }
+      th{
+        font-size: 20px;
+      }
+      tr {
+          font-weight: bold;
+        border:1px solid black;
+        text-align: center;
+        padding: 18px;
+    
+      }
+      td{
+         
+        padding: 18px;
+          text-align: center;
+      }
+      .cartbl{
+
+
+        margin-bottom: 3%;
+      }
+      .details{
+      background-color: red;
+      }
+     
+
+      #abt{
+        
+       
+        margin-top:30px ;
+        margin-bottom: 50px;
+        
+        margin-left: 50px;
+        padding: 10px;
+        font-size: 15px;
+    justify-content: center;
+      
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 450px;
+        
+        text-align: center;
+    }
